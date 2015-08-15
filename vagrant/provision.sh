@@ -3,6 +3,7 @@
 packages=(
   ansible
   git
+  expect
 )
 sudo apt-get update
 sudo apt-get install -y "${packages[@]}"
